@@ -17,17 +17,15 @@ Spatial analysis of tissue niches using 10x Visium data.
 ### 2. Xenium-CNV Analysis
 Copy number variation analysis from Xenium in situ sequencing data.
 - **Key features:**
-  - Single-cell CNV detection
+  - Smooth and normalization
   - Spatial CNV heterogeneity mapping
-  - Clonal evolution tracking
 - **Dependencies:** pandas, scanpy, infercnvpy
 
 ### 3. Bulk DNA-CNV (Read Counting Workflow)
-Traditional read-depth based CNV detection from bulk sequencing.
+Read-depth based CNV detection from bulk sequencing, with haplotype-specific read counting.
 - **Key features:**
-  - Read counting and normalization
-  - Segmentation algorithms
-  - Visualization of CNV profiles
+  - haplotype-specific phasing
+  - haplotype-specific read counting and binning
 - **Dependencies:** FACETS, WhatshAP, SHAPEIT
 
 
