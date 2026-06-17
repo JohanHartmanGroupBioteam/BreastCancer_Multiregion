@@ -9,10 +9,10 @@ This repository contains the main analysis pipelines for bulk DNA and spatial tr
 ### 1. Visium-Niche Analysis
 Spatial analysis of tissue niches using 10x Visium data.
 - **Key features:**
+  - Preprocessing and deconvolution
   - Spatial clustering and niche identification
-  - Ligand-receptor interaction analysis
-  - Spatial trajectory inference
-- **Dependencies:** Seurat
+  - Spot-level intrinsic subtyping
+- **Dependencies:** Seurat, BreastSubtypeR, nicheDE
 
 ### 2. Xenium-CNV Analysis
 Copy number variation analysis from Xenium in situ sequencing data.
