@@ -22,10 +22,10 @@ Copy number variation analysis from Xenium in situ sequencing data.
 - **Dependencies:** pandas, scanpy, infercnvpy
 
 ### 3. Bulk DNA-CNV (Read Counting Workflow)
-Read-depth based CNV detection from bulk sequencing, with haplotype-specific read counting.
+Read-depth based CNV detection from bulk sequencing, with haplotype-specific read counting for improved sensitivity and resolution.
 - **Key features:**
-  - haplotype-specific phasing
-  - haplotype-specific read counting and binning
+  - haplotype-specific phasing using germline variants
+  - Allele-specific read counting and binning
 - **Dependencies:** FACETS, WhatshAP, SHAPEIT
 
 
